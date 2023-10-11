@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loc6text"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Philadelphia"/>
+
+    <ImageView
+        android:id="@+id/loc6image1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/philly1"/>
+
+    <ImageView
+        android:id="@+id/loc6image2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/philly2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loc6description"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="275dp"
+        android:text="Philadelphia, often called the City of Brotherly Love, is located in the northeastern United States. It's renowned for being the birthplace of American democracy, with iconic sites like Independence Hall and the Liberty Bell Center in the historic district."
+        android:padding="10dp"/>
+
+</RelativeLayout>

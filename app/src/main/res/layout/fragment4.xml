@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loc4text"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="New York City"/>
+
+    <ImageView
+        android:id="@+id/loc4image1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/nyc2"/>
+
+    <ImageView
+        android:id="@+id/loc4image2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/nyc1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loc4description"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="275dp"
+        android:text="New York City, often simply referred to as NYC, is the epitome of urban vitality and diversity. Nestled on the northeastern coast of the United States, it's a sprawling metropolis known for its iconic skyline featuring landmarks such as the Empire State Building."
+        android:padding="10dp"/>
+
+</RelativeLayout>

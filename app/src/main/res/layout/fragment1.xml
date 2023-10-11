@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/rometext"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Sacramento"/>
+
+    <ImageView
+        android:id="@+id/romeimage1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/sac1"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/romeimage2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/sac2"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/romedescription"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_marginTop="275dp"
+        android:text="Sacramento is the capital of California and known for its diverse culture, thriving arts scene, and a strong sense of community. The city is home to various museums, including the California State Railroad Museum and the Crocker Art Museum, which are worth exploring."/>
+
+</RelativeLayout>

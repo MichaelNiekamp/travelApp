@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightgrey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loc2text"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Chicago"/>
+
+    <ImageView
+        android:id="@+id/loc2image1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/chic2"/>
+
+    <ImageView
+        android:id="@+id/loc2image2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/chic1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loc2description"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="275dp"
+        android:padding="10dp"
+        android:text="Chicago, often referred to as the Windy City, is a metropolis located in the heart of the United States. It's known for its iconic skyline punctuated by architectural marvels like the Willis Tower (formerly known as the Sears Tower) and the John Hancock Center."/>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loc3text"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:text="Seattle"/>
+
+    <ImageView
+        android:id="@+id/loc3image1"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sea1"/>
+
+    <ImageView
+        android:id="@+id/loc3image2"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="false"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sea2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/loc3description"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginTop="275dp"
+        android:text="Seattle, often called the Emerald City, is a captivating metropolis situated in the Pacific Northwest region of the United States, within the state of Washington. It's renowned for its stunning natural beauty, with the majestic Mount Rainier looming on the horizon."
+        android:padding="10dp"/>
+
+</RelativeLayout>
